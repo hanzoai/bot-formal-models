@@ -1,10 +1,10 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const OPENCLAW_REPO_DIR = process.env.OPENCLAW_REPO_DIR || process.env.CLAWDBOT_REPO_DIR;
-const SRC = OPENCLAW_REPO_DIR
-  ? path.resolve(OPENCLAW_REPO_DIR, 'src/agents/tool-policy.ts')
-  : path.resolve('../clawdbot/src/agents/tool-policy.ts');
+const REPO_DIR = process.env.BOT_REPO_DIR || process.env.OPENCLAW_REPO_DIR || process.env.CLAWDBOT_REPO_DIR;
+const SRC = REPO_DIR
+  ? path.resolve(REPO_DIR, 'src/agents/tool-policy.ts')
+  : path.resolve('../bot/src/agents/tool-policy.ts');
 const out = path.resolve('generated/tool-groups.json');
 
 const text = fs.readFileSync(SRC, 'utf8');
