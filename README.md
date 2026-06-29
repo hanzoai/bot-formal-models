@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="bot-formal-models" width="880"></p>
+
 # clawdbot-formal-models
 
 Machine-checkable **security models** for Clawdbot, primarily in **TLA+** checked with **TLC**.
