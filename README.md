@@ -2,6 +2,8 @@
 
 # clawdbot-formal-models
 
+[![Open in Hanzo](https://hanzo.app/badges/open-in-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/bot-formal-models&ref=main&action=open) [![Edit with Hanzo](https://hanzo.app/badges/edit-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/bot-formal-models&ref=main&action=edit)
+
 Machine-checkable **security models** for Clawdbot, primarily in **TLA+** checked with **TLC**.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18452871.svg)](https://doi.org/10.5281/zenodo.18452871)
